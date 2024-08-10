@@ -19,6 +19,7 @@
     "@bbva-web-components/bbva-core-intl-mixin": "^1.7.3",
     "@bbva-web-components/bbva-core-lit-helpers": "^1.0.0",
     "@bbva-web-components/bbva-foundations-styles": "^2.0.0",
+    "@bbva-web-components/bbva-text": "^1.24.0",
     "lit-element": "^2.0.0",
     "lit-html": "^1.0.0"
   },

@@ -24,6 +24,11 @@ npm install @jokes/jokes-ui
 
 LitElement (lit-element package)
 
+#### Applied mixins
+
+- BbvaCoreIntlMixin
+    @bbva-web-components/bbva-core-intl-mixin package
+
 ### Usage
 
 Import and extend the class:
@@ -62,5 +67,8 @@ Example:
 
 ### Properties
 
-- **name** (attribute: name): string = "Cells"
+- **category** (attribute: category): string = ""
     Description for property
+- **id** (attribute: id): number = 0
+- **setup** (attribute: setup): string = ""
+- **type** (attribute: type): string = ""

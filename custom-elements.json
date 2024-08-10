@@ -47,25 +47,85 @@
           "members": [
             {
               "kind": "field",
-              "name": "name",
+              "name": "category",
               "privacy": "public",
               "type": {
                 "text": "string"
               },
               "description": "Description for property",
-              "default": "\"Cells\"",
-              "attribute": "name"
+              "default": "\"\"",
+              "attribute": "category"
+            },
+            {
+              "kind": "field",
+              "name": "id",
+              "privacy": "public",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "attribute": "id"
+            },
+            {
+              "kind": "field",
+              "name": "setup",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "setup"
+            },
+            {
+              "kind": "field",
+              "name": "type",
+              "privacy": "public",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "attribute": "type"
             }
           ],
           "attributes": [
             {
-              "name": "name",
+              "name": "category",
               "type": {
                 "text": "string"
               },
               "description": "Description for property",
-              "default": "\"Cells\"",
-              "fieldName": "name"
+              "default": "\"\"",
+              "fieldName": "category"
+            },
+            {
+              "name": "id",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "fieldName": "id"
+            },
+            {
+              "name": "setup",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "setup"
+            },
+            {
+              "name": "type",
+              "type": {
+                "text": "string"
+              },
+              "default": "\"\"",
+              "fieldName": "type"
+            }
+          ],
+          "mixins": [
+            {
+              "name": "BbvaCoreIntlMixin",
+              "package": "@bbva-web-components/bbva-core-intl-mixin"
             }
           ],
           "superclass": {
