@@ -4,5 +4,11 @@
     "jokes-content-category": "Category: ",
     "jokes-content-type": "Type: ",
     "jokes-content-Joke": "Joke: "
+  },
+  "en-US": {
+    "jokes-title": "Jokes",
+    "jokes-content-category": "Category: ",
+    "jokes-content-type": "Type: ",
+    "jokes-content-Joke": "Joke: "
   }
 }

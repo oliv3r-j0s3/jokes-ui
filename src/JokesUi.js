@@ -2,6 +2,7 @@ import { LitElement, html } from 'lit-element';
 import { getComponentSharedStyles } from '@bbva-web-components/bbva-core-lit-helpers';
 import { BbvaCoreIntlMixin } from '@bbva-web-components/bbva-core-intl-mixin';
 import '@bbva-web-components/bbva-text/bbva-text.js';
+import '@bbva-experience-components/bbva-list-bullet/bbva-list-bullet.js';
 import styles from './jokes-ui.css.js';
 
 /**
@@ -36,7 +37,7 @@ export class JokesUi extends BbvaCoreIntlMixin(LitElement) {
     super();
     this.category = '';
     this.id = 0;
-    this.setup = '';
+    this.setup ='';
     this.type = '';
   }
 
@@ -62,7 +63,7 @@ export class JokesUi extends BbvaCoreIntlMixin(LitElement) {
               tag="h4"
               text="${this.t('jokes-content-type')}${this.type}"
             ></bbva-text>
-            <bbva-text size="M" tag="p" text="${this.setup}"></bbva-text>
+            <bbva-list-bullet class="list-text">${this.setup}</bbva-list-bullet>
           </div>
         </div>
       </div>
